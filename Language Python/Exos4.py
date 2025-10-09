@@ -9,7 +9,7 @@ def equation_2nd_degre(a, b, c):
         print("Il n’y a pas de solution réelle.")
     elif delta == 0:
         x = -b / (2*a)
-        print(f"Une seule solution :{n}")
+        print(f"Une seule solution :{x}")
     else:
         x1 = (-b - math.sqrt(delta)) / (2*a)
         x2 = (-b + math.sqrt(delta)) / (2*a)

@@ -30,7 +30,3 @@ def leet_speak(texte):
 
     # On renvoie le texte transformé
     return resultat
-
-
-# Exemple d'utilisation :
-print(leet_speak("LEET SPEAK"))

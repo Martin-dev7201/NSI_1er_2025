@@ -1,32 +1,20 @@
 def leet_speak(texte):
-    # On crée un dictionnaire avec les remplacements à faire
+    # Dictionnaire avec les remplacements pour minuscules et majuscules
     remplacements = {
-        'A': '4',
-        'B': '8',
-        'X': '8',
-        'E': '3',
-        'I': '1',
-        'L': '1',
-        'K': 'X',
-        'S': '5',
-        'T': '7',
-        'O': '0'
+        'A': '4', 'a': '4',
+        'B': '8', 'b': '8',
+        'X': '8', 'x': '8',
+        'E': '3', 'e': '3',
+        'I': '1', 'i': '1',
+        'L': '1', 'l': '1',
+        'K': 'X', 'k': 'x',   # on remplace K par X (respecte la casse)
+        'S': '5', 's': '5',
+        'T': '7', 't': '7',
+        'O': '0', 'o': '0'
     }
 
-    # On met tout le texte en majuscules pour simplifier
-    texte = texte.upper()
-
-    # On crée une nouvelle chaîne vide pour stocker le résultat
     resultat = ""
-
-    # On parcourt chaque lettre du texte
-    for lettre in texte:
-        if lettre in remplacements:
-            # Si la lettre est dans le dictionnaire, on la remplace
-            resultat += remplacements[lettre]
-        else:
-            # Sinon, on garde la lettre telle quelle
-            resultat += lettre
-
-    # On renvoie le texte transformé
+    for caractere in texte:
+        # .get renvoie la valeur correspondante ou le caractère lui-même
+        resultat += remplacements.get(caractere, caractere)
     return resultat

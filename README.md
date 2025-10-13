@@ -17,12 +17,11 @@ L’objectif est de centraliser mes cours, exercices et projets afin d’avoir u
 ---
 
 ## 🐍 Langage Python
-- Bases du langage : variables, conditions, boucles, fonctions.  
-- Programmation structurée et modulaire.  
-- Manipulation des listes, dictionnaires et chaînes de caractères.  
-- Découverte de bibliothèques utiles (ex: `random`, `math`).  
+📌 **Objectif**:
+- Identifier les éléments de base d'un programme informatique
+- Choisir une structure informatique élémentaire
+- Construire et adapter une structure informatique au problème posé
 
-📌 **Objectif** : savoir coder des programmes simples, clairs et efficaces.
 
 ---
 

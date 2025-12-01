@@ -1,0 +1,50 @@
+# 🧠 Logique Booléenne — Fiche Récap’
+
+## ✔️ Les valeurs
+- **True** : vrai  
+- **False** : faux  
+
+---
+
+## 🔄 NON (NOT)
+Inverse la valeur.
+
+| A | NON A |
+|---|-------|
+| True | False |
+| False | True |
+
+**Exemple :**  
+A = “Je suis fatigué” → NON A = “Je ne suis pas fatigué”
+
+---
+
+## 🤝 ET (AND)
+Vrai **uniquement si les deux** conditions sont vraies.
+
+| A | B | A AND B |
+|---|---|----------|
+| True | True | True |
+| True | False | False |
+| False | True | False |
+| False | False | False |
+
+---
+
+## 🔀 OU (OR)
+Vrai si **au moins une** des deux conditions est vraie.
+
+| A | B | A OR B |
+|---|---|---------|
+| True | True | True |
+| True | False | True |
+| False | True | True |
+| False | False | False |
+
+---
+
+## 🎯 Résumé
+- **NOT** : inverse  
+- **AND** : vrai seulement si les deux sont vrais  
+- **OR** : vrai si au moins un est vrai  
+

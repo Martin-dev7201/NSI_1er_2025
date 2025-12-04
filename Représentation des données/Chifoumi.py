@@ -21,17 +21,9 @@ else :
     ordi = 3
     print('ciseaux')
 #Résultat du match
-if ordi ==1 and joueur==3 :
-    print('Vous avez perdu')
-elif ordi==2 and joueur==1 :
-    print('Vous avez perdu')
-elif ordi==3 and joueur==2 :
-    print('Vous avez perdu')
-elif joueur==1 and ordi==3 :
-    print('Vous avez gagné')
-elif joueur==2 and ordi==1 :
-    print('Vous avez gagné')
-elif joueur==3 and ordi==2 :
-    print('Vous avez gagné')
-else :
-    print('Match nul')
+if joueur == ordi:
+    print("Match nul")
+elif (joueur == 1 and ordi == 3) or (joueur == 2 and ordi == 1) or (joueur == 3 and ordi == 2):
+    print("Vous avez gagné")
+else:
+    print("Vous avez perdu")

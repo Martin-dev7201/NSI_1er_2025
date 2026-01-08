@@ -10,7 +10,7 @@ def occurences(texte):
     
     for mot in texte.split():
         mot = mot.lower() # convertit le mot en minuscule
-        mot = mot.strip(",.;!?-()«»_—") # enleve les ponctuations collees aux mots
+        mot = mot.strip(",.;!?-()«»_+—/@") # enleve les ponctuations collees aux mots
         
         # --- MODIFICATION ICI ---
         # On vérifie que le mot n'est pas vide ET qu'il ne contient que des lettres
@@ -75,4 +75,5 @@ try:
 
 except FileNotFoundError:
     print(f"Erreur : Le fichier '{nom_du_fichier}' est introuvable.")
+
     print("Vérifiez que le fichier est bien dans le même dossier que le script.")

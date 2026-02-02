@@ -2,7 +2,8 @@
 
 Bienvenue sur ce dépôt GitHub regroupant mes travaux et révisions de **NSI (Numérique et Sciences Informatiques)** en Première Générale.  
 L’objectif est de centraliser mes cours, exercices et projets afin d’avoir une vision claire et organisée des différents chapitres abordés.
-Mon prof a fait un site web avec ses cours de première et terminale. Le voici : https://bases-programmation-pyth-hmb6htw.gamma.site/
+Mon prof a fait un site web avec ses cours de première et terminale. 
+Le voici : https://bases-programmation-pyth-hmb6htw.gamma.site/
 
 ---
 

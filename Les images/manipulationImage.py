@@ -1,3 +1,9 @@
+# -*- coding: utf-8 -*-
+"""
+Created on Tue Sep 10 15:00:26 2019
+
+@author: herve
+"""
 from PIL import Image
 import numpy as np
 
@@ -7,7 +13,7 @@ def ouvrirImage(nomImage):
     if len(img_np.shape)==2:
         img=[[i for i in j] for j in img_np]
     elif len(img_np.shape)==3 :
-       img=[[list(i[:3]) for i in j] for j in img_np]
+        img=[[list(i[:3]) for i in j] for j in img_np]
     return img
 
 def afficherImage(image):

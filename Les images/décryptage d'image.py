@@ -3,7 +3,9 @@ img = ouvrirImage("image_base.ppm")
 img_2= ouvrirImage ("fine.ppm")
 img_Cachee = img.copy()
 img_fusion = ouvrirImage("img_fusion.ppm")
-
+'''
+    TU DOIS UTILISER LES IMAGES EN .ppm OBLIGATOIREMENT
+'''
 def extraction():
     hauteur = len(img_fusion)
     largeur = len(img_fusion[0])

@@ -44,7 +44,7 @@ def appliquer_masque():
             for color in range(liste):
                 if masque[ligne][colonne]==255:
                     img[ligne][colonne][color]=img[ligne][colonne][color]-30
-                if img[ligne][colonne][color]<0:
+                elif img[ligne][colonne][color]<0:
                     img[ligne][colonne][color]=0
     afficherImage(img)
     
